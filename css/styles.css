@@ -1,0 +1,174 @@
+/* upper part */
+#title{
+  background-color: #d74338;
+}
+
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4,p{
+  font-family: 'Montserrat-black', sans-serif;
+}
+
+h1{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+h3,h2{
+    font-weight: 900;
+    color: black;
+}
+
+h4{
+  font-weight: 700;
+  color:black;
+}
+
+.main-heading{
+  text-align: left;
+  font-size: 4rem;
+}
+
+.buttons{
+  text-align: left;
+}
+.container-fluid{
+  padding: 8% 5%;
+}
+
+.nav-item{
+  padding: 0 15px;
+  font-family: "ubuntu", sans-serif;
+}
+
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size: 2rem;
+}
+
+.download-button{
+  margin: 0% 2% 1% 0%;
+}
+
+.iphone{
+ width:50%;
+  transform: rotate(20deg);
+  position: relative;
+  right:30%;
+  position: absolute;
+
+}
+
+
+/* middle part */
+
+
+.row{
+  font-weight: 100;
+  font-family: 'Montsserat',sans-serif;
+  padding: 50px 50px 0px 50px ;
+  color: grey;
+}
+
+#features{
+  background-color: white;
+  padding: 150px 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.fas{
+  color:#ec8172;
+  margin-bottom: 1rem;
+}
+
+.fas:hover{
+  color:#ec4646;
+  margin-top: -10px;
+}
+
+/* second middle */
+#testimonials{
+  background-color: #d74338;
+  color:white;
+}
+.dog-img{
+  border-radius: 100%;
+  width:15%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #d74338;
+  padding-bottom: 3%;
+}
+.brands{
+  width:15%;
+  margin: 15px;
+}
+.carousel-item{
+  padding: 7% 20%;
+
+}
+
+#pricing{
+  padding:100px;
+  maginr: 100px;
+}
+
+.card{
+  background-color: white;
+  border-radius: 10px;
+ box-shadow: 5px 10px 20px #1b1c1b, -0px -0px 50px #d3e0ea;
+ position: relative;
+ top: 40px;
+}
+.col-lg-4{
+  padding-bottom: 50px;
+}
+.card:hover{
+  background-color: #F1F1F1;
+  margin-top: -15px;
+}
+
+#cta{
+  background-color: #d74338;
+  padding: 15% 20%;
+  margin: 100px auto;
+  color: white;
+
+}
+
+@media (max-width: 990px){
+  .iphone{
+    position: static;
+    width:50%;
+    margin-top: 30px;
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width:600px){
+  .col-lg-4{
+    width:100%;
+  }
+  .card:hover{
+    position: relative;
+    margin-top:0px;
+  }
+}
+
+#footer{
+  color: grey;
+  padding: 10px 8px 150px;
+}
+
+.social-icons{
+  color:black;
+  margin: 20px 5px;
+}
